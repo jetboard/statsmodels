@@ -21,3 +21,4 @@ pywinpty; os_name == "nt"
 # code quality
 flake8
 isort
+numpy>=1.16.3 # not directly required, pinned by Snyk to avoid a vulnerability
